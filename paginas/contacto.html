@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>manchitas</title>
+    <link rel="shortcut icon" href="../imagenes/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/manchitas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Domine&family=Fascinate+Inline&family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:wght@200&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fascinate+Inline&family=Permanent+Marker&family=Source+Sans+Pro:wght@200&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fascinate+Inline&family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:wght@200&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+</head>
+<body class="body__contacto">
+    <header class="header">
+        <img src="../imagenes/logo.jpeg" alt="logo de la pagina" class="header__imagen"/>
+        <div class="header__div">
+            <h1 class="header__titlle">manchitas</h1>
+            <h2 class="header__subtitlle">todo para peluditos</h2>
+        </div>
+        <nav class="header__menu">
+                <ul>
+                    <li>
+                        <a href="../index.html">inicio</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/productos.html">productos</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/nosotros.html">nosotros</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/contacto.html">contacto</a>
+                    </li>
+                </ul>
+                <span>🍔</span>
+        </nav>
+    </header>
+    <main  class="main__formulario">
+        <form action="">
+            <h1>formulario</h1>
+            <label for="provincia">provincia</label>
+            <select name="provincia" id="provincia">
+                <option value=""></option>
+                <option value="cordoba">cordoba</option>
+                <option value="buenos aires"> buenos aires</option>
+                <option value="catamarca">catamarca</option>
+                <option value="sannta fe">santa fe</option>
+            </select>
+            <br/>
+             <fieldset class="cuadrocliente">
+                 <legend>forma de compra</legend>
+                 <label for="mayorista">mayorista</label>
+                 <input type="radio" id="mayorista" name="abc"/>
+                 <label for="minorista">minorista</label>
+                 <input type="radio" id="minorista" name="abc"/>
+            </fieldset>
+            <br/>
+            <label for="nombre">nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre...">
+            <br/>
+            <label for="email">e-mail</label>
+            <input type="email" id="email" name="email" placeholder="coloque imail">
+            <br/>
+            <label for="telefono">telefono (opcional)</label>
+            <input type="text" id="telefono" name="telefono" placeholder="numero de telefono">
+            <br/>
+            <label for="abc">comentario (opcional)</label>
+            <br/>
+            <textarea name="comentario" id="abc" cols="30" rows="10"></textarea>
+            <br/>
+            <button type="submit">enviar</button>
+            <button type="reset">borrar</button>
+        </form>
+        <div class="mapa__contacto">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54150.377545046336!2d-64.59091183273588!3d-31.977208484351895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2b05df32fdf21%3A0xca30b7769d4566d3!2sX5194%20Villa%20Gral.%20Belgrano%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1656285067792!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+        </div>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__titulo">newsletter</h2>
+        <form action="" class="footer__datos">
+            <input type="text" name="nombre" placeholder="nombre..."> 
+            <input type="email" name="" placeholder="tu email">
+            <button type="submit">enviar</button>
+            <button type="reset">borrar</button>
+           </form>
+        <div class="footer__div">
+            <h4 class="footer__div--tittles">redes sociales</h4>
+            <div class="footer_div--iconos">
+                <a href="./assets/enlace instagram.htm" target="_blank">
+                    <img src="../assets/logo instagram.jpg" alt="imagen instagram" width="50" height="50">
+                </a>
+                <a href="./assets/enlace facebook.htm" target="_blank">
+                    <img src="../assets/icono facebook.png" alt="imagen facebook" width="50" height="50">
+                </a>
+                <a href="mailto:yamilamerlo49@gmail.com">
+                    <img src="../assets/descarga.png" alt="imagen mail" width="50" height="50">
+                </a>
+            </div>
+            <h4>contactanos</h4>
+        </div>
+    </footer>
+</body>
+</html>

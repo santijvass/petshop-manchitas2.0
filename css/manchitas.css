@@ -106,6 +106,10 @@ h3{
     font-size: 2rem;
 }
 
+.section2 img {
+    border-radius: 10px;
+}
+
 
 
 .footer{
@@ -132,6 +136,10 @@ h3{
 
 .footer__div--iconos{
   display: flex;
+}
+
+.footer_div--iconos a img {
+    border-radius: 15px;
 }
 
 .footer__divnews{
@@ -197,6 +205,8 @@ main h2{
 .cuadrocliente{
     width: 40vw;
 }
+
+
 
 @media screen and (max-width: 1000px) {
 

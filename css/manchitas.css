@@ -38,7 +38,7 @@ header h1{
     
 }
 
-.header span{
+.header nav img{
     display: none;
 }
 
@@ -278,13 +278,16 @@ main h2{
 
     }
 
-    .header span{
+    .header nav img{
+        width: 2rem;
+        height: 2rem;
         display:flex;
         flex-direction: row;
         justify-content: right;
         font-size: 5vw;
-        margin-right: 5vw;
-
+        margin-top: 2vw;
+        margin-left: 30vw;
+       
     }
 
     .section2{

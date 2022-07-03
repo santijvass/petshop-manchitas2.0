@@ -47,12 +47,25 @@ header ul {
     flex-direction: row;
     justify-content: space-around;
     text-align: right;
+    
    }
+
+
+
+
 
 .header__menu{
     width: 40vw;
     grid-area: navegador;
    
+}
+
+.header__menu ul li a{
+    transition: 0.3s;
+}
+
+.header__menu ul li a:hover{
+    color: darkblue;
 }
 
 .header__div{
@@ -72,17 +85,26 @@ header ul {
 display:grid;
 grid-template-columns: repeat(3,1fr);
 justify-items: center;
+
 }
+
 
 .section> a{
        background-color: peru;
        border-radius: 10px;
+       transition: 0.5s;
+}
+
+.section a:hover{
+    transform: scale(1.1);
 }
 
 .section>a>img{
     margin: 2rem;
     border-radius: 10px;
+    
 }
+
 
 h3{
     background-color: rgb(241, 205, 158);

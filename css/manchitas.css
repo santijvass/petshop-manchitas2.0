@@ -31,8 +31,8 @@ header h1{
 
 .header__imagen{
     grid-area: imagen;
-    height: 90%;
-    width: 80%;
+    height: 80%;
+    width: 70%;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
     
@@ -51,7 +51,9 @@ header ul {
    }
 
 
-
+.navbar{
+    display: none;
+}
 
 
 .header__menu{
@@ -61,6 +63,7 @@ header ul {
 }
 
 .header__menu ul li a{
+    text-decoration: none;
     transition: 0.3s;
 }
 
@@ -74,32 +77,57 @@ header ul {
 
 
 .main{
-    height: 75vw;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: beige;
 }
-
+/*
 .section{
 display:grid;
 grid-template-columns: repeat(3,1fr);
 justify-items: center;
 
 }
+*/
 
+.section {
+    justify-content: center;
+}
 
-.section> a{
+.section div{
+    justify-content: center;
+}
+
+.section div div {
+    width: 18rem;
+    height: 20rem;
+
        background-color: peru;
        border-radius: 10px;
        transition: 0.5s;
+       text-align: center;
+       overflow: auto;
+       
 }
 
-.section a:hover{
+.secgtion div div a{
+    text-decoration: none;
+}
+
+.section div{
+    margin: 1rem;
+}
+
+
+
+.section div:hover{
     transform: scale(1.1);
 }
 
 .section>a>img{
+    margin-top: 0.5rem;
     margin: 2rem;
     border-radius: 10px;
     
@@ -107,10 +135,11 @@ justify-items: center;
 
 
 h3{
+    
+    margin: 0.5rem;
     background-color: rgb(241, 205, 158);
     color: black;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+   border-radius: 10px;
     text-align: center;
 }
 
@@ -126,6 +155,11 @@ h3{
     justify-content: center;
     text-align: center;
     font-size: 2rem;
+   
+}
+
+.section2 a{
+    text-decoration: none;
 }
 
 .section2 img {
@@ -159,6 +193,12 @@ h3{
 .footer__div--iconos{
   display: flex;
 }
+
+.footer__div--iconos a {
+    text-decoration: none;
+}
+
+
 
 .footer_div--iconos a img {
     border-radius: 15px;
@@ -300,7 +340,7 @@ main h2{
 
     }
 
-    .header nav img{
+    /*.header nav img{
         width: 2rem;
         height: 2rem;
         display:flex;
@@ -310,6 +350,12 @@ main h2{
         margin-top: 2vw;
         margin-left: 30vw;
        
+    }*/
+
+    .navbar{
+       display:grid;
+       grid-area: navegador;
+       justify-content: right;
     }
 
     .section2{

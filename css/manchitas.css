@@ -19,7 +19,7 @@ body{
     grid-template-rows: 50px 1fr;
     background-color: sandybrown;
     grid-template-areas: 
-    "imagen         .         navegador "
+    "imagen       navegador       navegador "
     "imagen       titulo       titulo   "
     
     ;

@@ -15,12 +15,12 @@ body{
 .header{
     font-family: 'Fascinate Inline', cursive;
     display: grid;
-    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px 1fr;
     background-color: sandybrown;
     grid-template-areas: 
-    "imagen         .         navegador"
-    "imagen    titulo    titulo"
+    "imagen         .         navegador "
+    "imagen       titulo       titulo   "
     
     ;
 }
@@ -52,7 +52,9 @@ header ul {
 
 
 .navbar{
-    display: none;
+    display: grid;
+    grid-area: navegador;
+    justify-content: right;
 }
 
 
@@ -149,6 +151,10 @@ h3{
     font-size: 5rem;
 }
 
+main section div a{
+    text-decoration: none;
+}
+
 .section2{
     display: flex;
     flex-direction: row;
@@ -229,7 +235,7 @@ main h2{
 
 .main__div-cartas{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr 1fr;
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -324,7 +330,7 @@ main h2{
     }
 
     .main__titlle{
-        font-size: 10vw;
+        font-size: 5vw;
     }
 
     .header__titlle{
@@ -335,10 +341,10 @@ main h2{
         font-size: 3vw;
     }
 
-    .header ul{
+    /*.header ul{
         display: none;
 
-    }
+    }*/
 
     /*.header nav img{
         width: 2rem;
@@ -351,12 +357,6 @@ main h2{
         margin-left: 30vw;
        
     }*/
-
-    .navbar{
-       display:grid;
-       grid-area: navegador;
-       justify-content: right;
-    }
 
     .section2{
         font-size: 3vw;

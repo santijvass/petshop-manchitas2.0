@@ -403,9 +403,19 @@ main h2{
 
 @media screen and (max-width: 445px) {
 
+    header{
+        height: 120px;
+    }
+
     .header__titlle{
         font-size: 7.5vw;
     }
+    
+    .main__titlle{
+        font-size: 10vw;
+ 
+    }
+
     .footer__divnews{
         display: none;
     }
@@ -421,7 +431,7 @@ main h2{
 
     .main__nosotros p{
         width: 100%;
-        height: 100%;
+        height:350px;
         font-size: 5vw;
     }
 

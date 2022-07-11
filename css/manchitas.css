@@ -437,7 +437,7 @@ main h2{
     }
     
     .main__productos{
-        height: 600vw;
+        height: 500vw;
     }
     .main__productos h2{
         font-size: 10vw;
@@ -450,12 +450,12 @@ main h2{
 
     .main__nosotros p{
         width: 100%;
-        height:350px;
+        height:350vw;
         font-size: 5vw;
     }
 
     .main__formulario{
-        height: 220vw;
+        height: 200vw;
     }
 
     .footer{

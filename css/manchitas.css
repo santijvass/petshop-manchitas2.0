@@ -404,8 +404,12 @@ main h2{
 
 @media screen and (max-width: 445px) {
 
+    .main__formulario{
+        margin-top: 2rem;
+    }
+
     .main__nosotros{
-        height: 130vw;
+        height: 70vw;
     }
 
     .header__titlle{

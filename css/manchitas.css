@@ -310,6 +310,18 @@ main h2{
 }
 }
 
+@media  screen and (max-width:750px) {
+    .main__formulario{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        margin-left: 2rem;
+    }
+    iframe{
+        width: 300px;important
+        height: 200px;
+    }
+}
+
 
 
 @media screen and (max-width: 715px) {
@@ -359,7 +371,7 @@ main h2{
         margin-top: 2vw;
         margin-left: 30vw;
        
-    }*/{
+    }*/
 
 
     .section2{
@@ -399,6 +411,10 @@ main h2{
  .nav-link{
     font-size: 2.5vw;
  }
+
+.mapa__contacto{
+    display: none;
+}
 }
 
 @media screen and (max-width: 445px) {
@@ -419,9 +435,12 @@ main h2{
     .footer__divnews{
         display: none;
     }
-
+    
+    .main__productos{
+        height: 600vw;
+    }
     .main__productos h2{
-        font-size: 6vw;
+        font-size: 10vw;
     }
 
     .main__div-cartas{
@@ -433,6 +452,10 @@ main h2{
         width: 100%;
         height:350px;
         font-size: 5vw;
+    }
+
+    .main__formulario{
+        height: 220vw;
     }
 
     .footer{

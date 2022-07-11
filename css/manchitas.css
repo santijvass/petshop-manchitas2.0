@@ -240,6 +240,14 @@ main h2{
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    
+}
+
+
+.main__div-cartas img {
+    border-radius: 10px;
+    box-shadow: 10px;
+    
 }
 
 .main__nosotros{

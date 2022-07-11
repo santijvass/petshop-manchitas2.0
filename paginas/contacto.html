@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>manchitas</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <link rel="shortcut icon" href="../imagenes/logo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="../css/manchitas.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Domine&family=Fascinate+Inline&family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:wght@200&family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
@@ -18,23 +20,27 @@
             <h1 class="header__titlle">manchitas</h1>
             <h2 class="header__subtitlle">todo para peluditos</h2>
         </div>
-        <nav class="header__menu">
-                <ul>
-                    <li>
-                        <a href="../index.html">inicio</a>
-                    </li>
-                    <li>
-                        <a href="../paginas/productos.html">productos</a>
-                    </li>
-                    <li>
-                        <a href="../paginas/nosotros.html">nosotros</a>
-                    </li>
-                    <li>
-                        <a href="../paginas/contacto.html">contacto</a>
-                    </li>
-                </ul>
-                <img src="../assets/menu.png" alt=" menu hamburguesa">
-        </nav>
+        <nav class="navbar navbar-expand-md bg-sandybrown">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../paginas/productos.html">productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/nosotros.html">nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/contacto.html">contacto</a>
+                  </li>
+                 </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main  class="main__formulario">
         <form action="">

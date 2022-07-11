@@ -404,6 +404,10 @@ main h2{
 
 @media screen and (max-width: 445px) {
 
+    .main__nosotros{
+        height: 130vw;
+    }
+
     .header__titlle{
         font-size: 7.5vw;
     }

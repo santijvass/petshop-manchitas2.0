@@ -435,7 +435,7 @@ main h2{
 
     .main__formulario{
         margin-top: 2rem;
-        height: 250vw;
+        height: 200vw;
     
     }
 
@@ -459,7 +459,7 @@ main h2{
     }
     
     .main__productos{
-        height: 550vw;
+        height: 500vw;
     }
     .main__productos h2{
         font-size: 10vw;

@@ -239,6 +239,14 @@ main h2{
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    
+}
+
+
+.main__div-cartas img {
+    border-radius: 10px;
+    box-shadow: 10px;
+    
 }
 
 .main__nosotros{
@@ -419,8 +427,17 @@ main h2{
 
 @media screen and (max-width: 445px) {
 
+<<<<<<< HEAD
     header{
         height: 120px;
+=======
+    .main__formulario{
+        margin-top: 2rem;
+    }
+
+    .main__nosotros{
+        height: 70vw;
+>>>>>>> cambios
     }
 
     .header__titlle{

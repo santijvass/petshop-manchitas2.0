@@ -19,9 +19,7 @@
             display: flex;
             a{
                 text-decoration: none;
-                img{
-                    border-radius: 15px;
-                }
+
             }
         }
     }
@@ -34,4 +32,8 @@
     background-color: beige;
     width: 100%;
     text-align: center;
+}
+
+.footer__div div a img{
+    border-radius: 15px;
 }

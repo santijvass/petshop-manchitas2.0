@@ -1,277 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-body{
-    font-family: 'Pacifico', cursive;
-    background-color: beige;
-    
-}
-
-.header{
-    font-family: 'Fascinate Inline', cursive;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 1fr;
-    background-color: sandybrown;
-    grid-template-areas:
-    "imagen       navegador       navegador "
-    "imagen       titulo       titulo   "
-    ;
-}
-
-header h1{
-    font-size: 5rem;
-}
-
-.header__imagen{
-    grid-area: imagen;
-    height: 80%;
-    width: 70%;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
-    
-}
-
-.header nav img{
-    display: none;
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: right;
-    
-   }
-
-
-.navbar{
-    display: grid;
-    grid-area: navegador;
-    justify-content: right;
-}
 
 
 
-.header__menu{
-    width: 40vw;
-    grid-area: navegador;
-   
-}
-
-/*.header__menu ul li a{
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.header__menu ul li a:hover{
-    color: darkblue;
-}*/
-
-.header__div{
-    grid-area: titulo;
-}
-
-
-.main{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: beige;
-}
-/*
-.section{
-display:grid;
-grid-template-columns: repeat(3,1fr);
-justify-items: center;
-
-}
-*/
-
-.section {
-    justify-content: center;
-}
-
-.section div{
-    justify-content: center;
-}
-
-.section div div {
-    width: 18rem;
-    height: 20rem;
-
-       background-color: peru;
-       border-radius: 10px;
-       transition: 0.5s;
-       text-align: center;
-       overflow: auto;
-       
-}
-
-.secgtion div div a{
-    text-decoration: none;
-}
-
-.section div{
-    margin: 1rem;
-}
-
-
-
-.section div:hover{
-    transform: scale(1.1);
-}
-
-.section>a>img{
-    margin-top: 0.5rem;
-    margin: 2rem;
-    border-radius: 10px;
-    
-}
-
-
-h3{
-    
-    margin: 0.5rem;
-    background-color: rgb(241, 205, 158);
-    color: black;
-   border-radius: 10px;
-    text-align: center;
-}
-
-.main__titlle{
-    display: flex;
-    justify-content: center;
-    font-size: 5rem;
-}
-
-main section div a{
-    text-decoration: none;
-}
-
-.section2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    font-size: 2rem;
-   
-}
-
-.section2 a{
-    text-decoration: none;
-}
-
-.section2 img {
-    border-radius: 10px;
-}
-
-
-
-.footer{
-    color: brown;
-    font-family:  'Domine', serif;
-    height: 30vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.footer__div{
-    
-    font-size: 3rem;
-    background-color: rgb(253, 191, 168);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer__div--iconos{
-  display: flex;
-}
-
-.footer__div--iconos a {
-    text-decoration: none;
-}
-
-
-
-.footer_div--iconos a img {
-    border-radius: 15px;
-}
-
-.footer__divnews{
-    background-color: beige;
-    width: 100%;
-    text-align: center;
-}
-
-
-.main__productos{
-    display: grid;
-    grid-template-rows: 0,5fgr 1fr 0,5fr;
-    justify-items: center;
-}
-
-main video{
-    background-color: black;
-    margin-bottom: 2rem;
-}
-
-main h2{
-    font-size: 3rem;
-    margin-top: 4rem;
-}
-
-.main__div-cartas{
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr;
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    
-}
-
-
-.main__div-cartas img {
-    border-radius: 10px;
-    box-shadow: 10px;
-    
-}
-
-.main__nosotros{
-    font-size: 1.2rem;
-    display: grid;
-    justify-content: center;
-}
-
-.main__nosotros p{
-    width: 40vw;
-    margin: 0 auto;
-    margin-top: 2rem;
-    
-}
 
 .body-nosotros{
 
     background-image: url(../imagenes/fondo\ nosotros.jpg);
 }
 
-.main__formulario{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-left: 2rem;
-}
 
 .mapa{
     margin-right: 2rem;
@@ -281,7 +16,6 @@ main h2{
 .cuadrocliente{
     width: 40vw;
 }
-
 
 
 @media screen and (max-width: 1000px) {
@@ -506,6 +240,22 @@ main h2{
             height: 280vw;
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

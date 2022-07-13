@@ -1,0 +1,52 @@
+.header{
+    font-family: 'Fascinate Inline', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    background-color: sandybrown;
+    grid-template-areas:
+    "imagen       navegador       navegador "
+    "imagen       titulo       titulo   "
+    ;
+}
+
+header h1{
+    font-size: 5rem;
+}
+
+.header__imagen{
+    grid-area: imagen;
+    height: 80%;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+.header nav img{
+    display: none;
+}
+
+.navbar{
+    display: grid;
+    grid-area: navegador;
+    justify-content: right;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+    
+   }
+
+.header__menu{
+    width: 40vw;
+    grid-area: navegador;
+   
+}
+.header__div{
+    grid-area: titulo;
+}
+

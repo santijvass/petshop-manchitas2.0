@@ -15,6 +15,11 @@
     flex-direction: column;
     justify-content: space-around;
     background-color: beige;
+    &__titlle{
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+    }
 }
 /*
 .section{
@@ -27,33 +32,25 @@ justify-items: center;
 
 .section {
     justify-content: center;
+    div{
+        justify-content: center;
+        margin: 1rem;
+        div{
+            width: 18rem;
+            height: 20rem;
+        
+               background-color: peru;
+               border-radius: 10px;
+               transition: 0.5s;
+               text-align: center;
+               overflow: auto;
+               a{
+                text-decoration: none;
+
+               }
+        }
+    }
 }
-
-.section div{
-    justify-content: center;
-}
-
-.section div div {
-    width: 18rem;
-    height: 20rem;
-
-       background-color: peru;
-       border-radius: 10px;
-       transition: 0.5s;
-       text-align: center;
-       overflow: auto;
-       
-}
-
-.secgtion div div a{
-    text-decoration: none;
-}
-
-.section div{
-    margin: 1rem;
-}
-
-
 
 .section div:hover{
     transform: scale(1.1);
@@ -63,14 +60,6 @@ justify-items: center;
     margin-top: 0.5rem;
     margin: 2rem;
     border-radius: 10px;
-    
-}
-
-
-.main__titlle{
-    display: flex;
-    justify-content: center;
-    font-size: 5rem;
 }
 
 main section div a{
@@ -83,17 +72,14 @@ main section div a{
     justify-content: center;
     text-align: center;
     font-size: 2rem;
+    a{
+        text-decoration: none;
+    }
+    img{
+        border-radius: 10px;
+    }
    
 }
-
-.section2 a{
-    text-decoration: none;
-}
-
-.section2 img {
-    border-radius: 10px;
-}
-
 
 .main__productos{
     display: grid;
@@ -117,27 +103,22 @@ main h2{
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    
-}
-
-
-.main__div-cartas img {
-    border-radius: 10px;
-    box-shadow: 10px;
-    
+    img{
+        border-radius: 10px;
+        box-shadow: 10px;
+    }
 }
 
 .main__nosotros{
     font-size: 1.2rem;
     display: grid;
     justify-content: center;
-}
-
-.main__nosotros p{
-    width: 40vw;
-    margin: 0 auto;
-    margin-top: 2rem;
-    
+    p{
+        width: 40vw;
+        margin: 0 auto;
+        margin-top: 2rem;
+        
+    }
 }
 
 .main__formulario{
@@ -145,3 +126,4 @@ main h2{
     grid-template-columns: 2fr 1fr;
     margin-left: 2rem;
 }
+

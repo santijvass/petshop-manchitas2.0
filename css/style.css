@@ -155,13 +155,14 @@ main h2 {
       display: flex; }
       .footer__div--iconos a {
         text-decoration: none; }
-        .footer__div--iconos a img {
-          border-radius: 15px; }
 
 .footer__divnews {
   background-color: beige;
   width: 100%;
   text-align: center; }
+
+.footer__div div a img {
+  border-radius: 15px; }
 
 * {
   margin: 0;

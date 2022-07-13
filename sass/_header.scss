@@ -8,20 +8,29 @@
     "imagen       navegador       navegador "
     "imagen       titulo       titulo   "
     ;
+    &__imagen{
+        grid-area: imagen;
+        height: 80%;
+        width: 70%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px black;
+    }
+
+    &__menu{
+        width: 40vw;
+        grid-area: navegador;
+       
+    }
+
+    &__div{
+        grid-area: titulo;
+    }
 }
 
 header h1{
     font-size: 5rem;
 }
 
-.header__imagen{
-    grid-area: imagen;
-    height: 80%;
-    width: 70%;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
-    
-}
 
 .header nav img{
     display: none;
@@ -41,12 +50,6 @@ header ul {
     
    }
 
-.header__menu{
-    width: 40vw;
-    grid-area: navegador;
-   
-}
-.header__div{
-    grid-area: titulo;
-}
+
+
 

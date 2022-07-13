@@ -7,33 +7,28 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    &__div{
+        font-size: 3rem;
+        background-color: rgb(253, 191, 168);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &--iconos{
+            display: flex;
+            a{
+                text-decoration: none;
+                img{
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
 
 }
 
-.footer__div{
-    
-    font-size: 3rem;
-    background-color: rgb(253, 191, 168);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.footer__div--iconos{
-  display: flex;
-}
-
-.footer__div--iconos a {
-    text-decoration: none;
-}
-
-
-
-.footer_div--iconos a img {
-    border-radius: 15px;
-}
 
 .footer__divnews{
     background-color: beige;

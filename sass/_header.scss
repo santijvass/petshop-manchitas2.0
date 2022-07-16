@@ -1,7 +1,7 @@
 .header{
     font-family: 'Fascinate Inline', cursive;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 50px 1fr;
     background-color: sandybrown;
     grid-template-areas:
@@ -40,7 +40,9 @@ header h1{
     display: grid;
     grid-area: navegador;
     justify-content: right;
+
 }
+
 
 header ul {
     display: flex;

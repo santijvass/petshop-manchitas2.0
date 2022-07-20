@@ -1,11 +1,10 @@
 .header {
   font-family: 'Fascinate Inline', cursive;
   display: grid;
-  grid-template-columns: 0.6fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 50px 1fr;
   background-color: sandybrown;
-  grid-template-areas: "imagen       navegador       navegador "
- "imagen       titulo       titulo   "; }
+  grid-template-areas: "imagen       navegador       navegador " "imagen       titulo       titulo   "; }
   .header__imagen {
     grid-area: imagen;
     height: 80%;
@@ -35,14 +34,10 @@ header ul {
   justify-content: space-around;
   text-align: right; }
 
-/*.header__menu ul li a{
-    text-decoration: none;
-    transition: 0.3s;
-}
+.productos, .main__productos--img img {
+  border-radius: 10px;
+  box-shadow: 10px; }
 
-.header__menu ul li a:hover{
-    color: darkblue;
-}*/
 .main {
   display: flex;
   flex-direction: column;
@@ -53,14 +48,6 @@ header ul {
     justify-content: center;
     font-size: 5rem; }
 
-/*
-.section{
-display:grid;
-grid-template-columns: repeat(3,1fr);
-justify-items: center;
-
-}
-*/
 .section {
   justify-content: center; }
   .section div {
@@ -118,9 +105,25 @@ main h2 {
   gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem; }
-  .main__div-cartas img {
+  .main__div-cartas div {
+    background-color: burlywood;
+    width: 200px;
+    height: 300px;
     border-radius: 10px;
-    box-shadow: 10px; }
+    display: flex;
+    flex-direction: column;
+    justify-items: center; }
+    .main__div-cartas div p {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 5vw;
+      background-color: khaki;
+      width: 15vw;
+      height: 6vw;
+      text-align: center;
+      border-radius: 10px;
+      margin: 2vw auto; }
 
 .main__nosotros {
   font-size: 1.2rem;
@@ -211,17 +214,6 @@ h3 {
   .section > a {
     margin: 1rem; } }
 
-/*@media  screen and (max-width:750px) {
-    .main__formulario{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        margin-left: 2rem;
-    }
-    iframe{
-        width: 300px;important
-        height: 200px;
-    }
-}*/
 @media screen and (max-width: 715px) {
   .main {
     width: 100%;
@@ -237,24 +229,9 @@ h3 {
   .header__titlle {
     font-size: 9vw; }
   .nav-link {
-    font-size: 3vw; }
+    font-size: 2.5vw; }
   .header__subtitlle {
     font-size: 3vw; }
-  /*.header ul{
-        display: none;
-
-    }*/
-  /*.header nav img{
-        width: 2rem;
-        height: 2rem;
-        display:flex;
-        flex-direction: row;
-        justify-content: right;
-        font-size: 5vw;
-        margin-top: 2vw;
-        margin-left: 30vw;
-       
-    }*/
   .section2 {
     font-size: 3vw; }
   .footer__div {
@@ -275,10 +252,7 @@ h3 {
   .header__titlle {
     font-size: 8.5vw; }
   .nav-link {
-    font-size: 3.5vw; }
-  /*.mapa__contacto{
-    display: none;
-}*/ }
+    font-size: 3vw; } }
 
 @media screen and (max-width: 445px) {
   header {
@@ -314,7 +288,7 @@ h3 {
     margin: 1rem;
     margin-left: 0; }
   .nav-link {
-    font-size: 4vw; } }
+    font-size: 5vw; } }
 
 @media screen and (max-width: 380px) {
   .main__productos {

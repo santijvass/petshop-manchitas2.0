@@ -1,9 +1,16 @@
+$colores:(
+    cabeza:sandybrown,
+    cuerpo: beige,
+    pie:rgb(253, 191, 168),
+    textoprincipal: black,
+    textosecundario: brown,
+);
 .header{
     font-family: 'Fascinate Inline', cursive;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 50px 1fr;
-    background-color: sandybrown;
+    background-color: map-get($map: $colores, $key:cabeza );
     grid-template-areas:
     "imagen       navegador       navegador "
     "imagen       titulo       titulo   "

@@ -1,6 +1,13 @@
 
+$colores:(
+    cabeza:sandybrown,
+    cuerpo: beige,
+    pie:rgb(253, 191, 168),
+    textoprincipal: black,
+    textosecundario: brown,
+);
 .footer{
-    color: brown;
+    color: map-get($map: $colores, $key:textosecundario );
     font-family:  'Domine', serif;
     height: 30vw;
     display: flex;
@@ -9,7 +16,7 @@
     align-items: center;
     &__div{
         font-size: 3rem;
-        background-color: rgb(253, 191, 168);
+        background-color: map-get($map: $colores, $key:pie );
         width: 100%;
         display: flex;
         flex-direction: column;

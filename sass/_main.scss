@@ -1,41 +1,48 @@
-/*.header__menu ul li a{
-    text-decoration: none;
-    transition: 0.3s;
+$colores:(
+    cabeza:sandybrown,
+    cuerpo: beige,
+    pie:rgb(253, 191, 168),
+    textoprincipal: black,
+    textosecundario: brown,
+);
+.productos{
+    border-radius: 10px;
+    box-shadow: 10px;
 }
 
-.header__menu ul li a:hover{
-    color: darkblue;
-}*/
-
-
+@mixin precios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 5vw;
+    background-color: khaki;
+    width: 15vw;
+    height: 6vw;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2vw auto;
+}
 
 .main{
     
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: beige;
+    background-color: map-get($map: $colores, $key:cuerpo );
     &__titlle{
         display: flex;
         justify-content: center;
         font-size: 5rem;
     }
 }
-/*
-.section{
-display:grid;
-grid-template-columns: repeat(3,1fr);
-justify-items: center;
 
-}
-*/
 
 .section {
     justify-content: center;
     div{
         justify-content: center;
         margin: 1rem;
-        div{
+        div {
             width: 18rem;
             height: 20rem;
         
@@ -48,9 +55,12 @@ justify-items: center;
                 text-decoration: none;
 
                }
+        
         }
+
     }
 }
+
 
 .section div:hover{
     transform: scale(1.1);
@@ -103,11 +113,27 @@ main h2{
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    img{
+    div{
+        background-color: burlywood;
+        width: 200px;
+        height: 300px;
         border-radius: 10px;
-        box-shadow: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        p{
+            @include precios
+         }
+
     }
+
 }
+
+.main__productos--img img{
+    @extend .productos;
+}
+
+
 
 .main__nosotros{
     font-size: 1.2rem;

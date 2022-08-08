@@ -4,8 +4,10 @@
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 50px 1fr;
   background-color: sandybrown;
-  grid-template-areas: "imagen       navegador       navegador " "imagen       titulo       titulo   "; }
+  grid-template-areas: "imagen       navegador       navegador "
+ "imagen       titulo       titulo   "; }
   .header__imagen {
+    margin: auto;
     grid-area: imagen;
     height: 80%;
     width: 70%;
@@ -15,6 +17,8 @@
     width: 40vw;
     grid-area: navegador; }
   .header__div {
+    margin-top: 1rem;
+    margin-left: 4rem;
     grid-area: titulo; }
 
 header h1 {
@@ -149,7 +153,7 @@ main h2 {
   align-items: center; }
   .footer__div {
     font-size: 3rem;
-    background-color: #fdbfa8;
+    background-color: sandybrown;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -158,6 +162,7 @@ main h2 {
     .footer__div--iconos {
       display: flex; }
       .footer__div--iconos a {
+        color: sandybrown;
         text-decoration: none; }
 
 .footer__divnews {
@@ -202,17 +207,32 @@ h3 {
   .main__nosotros p {
     width: 100%;
     height: 100%;
-    font-size: 3vw; } }
+    font-size: 3vw; }
+
+   }
 
 @media screen and (max-width: 950px) {
   .section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: 1fr; }
   .main {
     width: 100%;
     height: 100%; }
+  .main__titlle{
+    font-size: 8vw;
+  }
   .section > a {
     margin: 1rem; } }
+
+    @media screen and (max-width:767px) {
+      .header__titlle{
+        font-size: 9.5vw;
+      }
+      .main__div-cartas div{
+        height: 280px;
+      }
+
+    }
 
 @media screen and (max-width: 715px) {
   .main {
@@ -225,7 +245,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr; }
   .main__titlle {
-    font-size: 5vw; }
+    font-size: 8vw; }
   .header__titlle {
     font-size: 9vw; }
   .nav-link {
@@ -249,14 +269,17 @@ h3 {
 @media screen and (max-width: 600px) {
   main video {
     width: auto; }
+  .header__div{
+    margin-left: 2rem;
+  }
   .header__titlle {
     font-size: 8.5vw; }
   .nav-link {
-    font-size: 3vw; } }
+    font-size: 2.5vw; } }
 
 @media screen and (max-width: 445px) {
   header {
-    height: 120px; }
+    height: 150px; }
   .main__formulario {
     margin-top: 2rem;
     height: 240vw; }
@@ -265,16 +288,19 @@ h3 {
   .header__titlle {
     font-size: 7.5vw; }
   .main__titlle {
-    font-size: 10vw; }
+    font-size: 8vw; }
   .footer__divnews {
     display: none; }
   .main__productos {
-    height: 500vw; }
+    height: 580vw; }
   .main__productos h2 {
     font-size: 10vw; }
   .main__div-cartas {
     display: grid;
     grid-template-columns: 1fr; }
+    .main__div-cartas div{
+      height: 250px;
+    }
   .main__nosotros p {
     width: 100%;
     height: 100%;
@@ -288,10 +314,10 @@ h3 {
     margin: 1rem;
     margin-left: 0; }
   .nav-link {
-    font-size: 5vw; } }
+    font-size: 2.5vw; } }
 
 @media screen and (max-width: 380px) {
   .main__productos {
-    height: 600vw; }
+    height: 700vw; }
   .main__formulario {
     height: 280vw; } }

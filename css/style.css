@@ -281,8 +281,13 @@ h3 {
 @media screen and (max-width: 445px) {
   header {
     height: 150px; }
+  .header__imagen {
+      grid-area: imagen;
+      height: 80%;
+      width: 50%;
+      }
   .main__formulario {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     height: 240vw; }
   .main__nosotros {
     height: 120vw; }

@@ -282,9 +282,8 @@ h3 {
   header {
     height: 150px; }
   .header__imagen {
-      grid-area: imagen;
-      height: 60%;
-      width: 70%;
+      height: 50%;
+      width: 80%;
       }
   .main__formulario {
     margin-top: 1.5rem;

@@ -286,8 +286,10 @@ h3 {
       width: 80%;
       }
   .main__formulario {
-    margin-top: 1.5rem;
-    height: 240vw; }
+    margin-top: 2rem;
+    height: 240vw;
+    margin-left: 2rem;
+   }
   .main__nosotros {
     height: 120vw; }
   .header__titlle {

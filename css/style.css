@@ -276,7 +276,14 @@ h3 {
   .header__titlle {
     font-size: 8.5vw; }
   .nav-link {
-    font-size: 2.5vw; } }
+    font-size: 2.5vw; } 
+  .main__formulario{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    height: 240vw;
+    margin-left: 2rem;
+  }
+  }
 
 @media screen and (max-width: 445px) {
   header {
@@ -289,7 +296,7 @@ h3 {
     font-size: 1.2rem;
     margin-top: 2rem;
     height: 240vw;
-    margin-left: 2rem;
+    margin-left: 1rem;
    }
   .main__nosotros {
     height: 120vw; }

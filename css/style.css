@@ -281,7 +281,7 @@ h3 {
     font-size: 1.2rem;
     margin-top: 2rem;
     height: 240vw;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
   }
   }
 
@@ -289,8 +289,8 @@ h3 {
   header {
     height: 150px; }
   .header__imagen {
-      height: 50%;
-      width: 80%;
+      height: 70%;
+      width: 90%;
       }
   .main__formulario {
     font-size: 1.2rem;
